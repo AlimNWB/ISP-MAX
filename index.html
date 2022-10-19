@@ -4,29 +4,33 @@
 <head>
   <title>ISP MAX</title>
   <!-- Required meta tags -->
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- Font Awesome cdn-link -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 
   <!-- Bootstrap CSS v5.2.0-beta1 -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
-    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 
   <!-- google font  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Nunito:wght@400;600;700;800;900&family=Rubik&display=swap"
-    rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    rel="stylesheet">
+  <!-- swiper css cdn -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
 
-  <link rel="stylesheet" href="assets/css/style.css" />
+  <!-- magnific popup css -->
+  <link rel="stylesheet" href="assets/css/magnific-popup.css">
+
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
   <main class="main">
-    <div class="isp_topber">
+    <div class="isp_topber_menu">
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
@@ -36,7 +40,7 @@
           </div>
           <div class="col-lg-6">
             <div class="isp_topbar_right">
-              <div class="isp_topbar_content">
+              <div class="isp_topbar_right_content">
                 <h6>Login/Register</h6>
               </div>
               <ul class="isp_topbar_social_link">
@@ -51,33 +55,10 @@
         </div>
       </div>
     </div>
-    <!-- <div class="isp__top">
-      <div class="container">
-        <div class="isp__hero-top d-flex justify-content-between">
-          <div class="isp__call">
-            <a href="tel:98756422"><span class="call-now">Call Now: </span>987564887</a>
-          </div>
-          <div class="isp__login d-flex">
-            <div class="isp__title">
-              <a href="#">Login/Register</a>
-            </div>
-            <div class="isp__social-link">
-              <a href="#"><i class="fa-brands fa-facebook-f ms-4"></i></a>
-              <a href="#"><i class="fa-brands fa-twitter ms-2"></i></a>
-              <a href="#"><i class="fa-brands fa-vimeo-v ms-2"></i></a>
-              <a href="#"><i class="fa-brands fa-linkedin-in ms-2"></i></a>
-              <a href="#"><i class="fa-brands fa-pinterest ms-2"></i></a>
-            </div>
-          </div>
-        </div>
-        < /.isp__header-top -->
-    <!-- </div> -->
-    <!-- /.container -->
-    <!-- </div> -->
-    <nav class="navbar navbar-expand-lg bg-white">
+    <nav class="navbar navbar-expand-lg sticky-top">
       <div class="container">
         <a class="navbar-brand" href="#">
-          <img src="assets/image/isp_logo.svg" alt="logo" />
+          <img src="assets/image/isp_logo.svg" alt="logo">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -112,41 +93,36 @@
       </div>
     </nav>
 
-    <div class="swiper mySwiper">
-      <div class="swiper-wrapper">
-        <section class="isp__banner__image">
-          <div class="container">
-            <div class="banner__content">
-              <div class="banner__sub_title">
-                <h5><span>30% Discount </span>First Annual Purchase</h5>
-              </div>
-              <!-- /.header_sub__title -->
-              <div class="banner_title">
-                <h1>
-                  More Fast,<br>
-                  More Productive
-                </h1>
-              </div>
-              <!-- /.banner_title -->
-              <div class="banner__des">
-                <p>
-                  It is a long established fact that a reader will be distracted by
-                  <br />
-                  the readable content of a page when looking at its layout.
-                </p>
-              </div>
-              <!-- /.banner_des -->
-              <div class="isp__banner-button d-flex">
-                <a class="banner-button1" href="#">See Packages</a>
-                <a class="banner-button2" href="#">Coverage Area</a>
-              </div>
-            </div>
+    <section class="isp__banner__image ">
+      <div class="container">
+        <div class="banner__content">
+          <div class="banner__sub_title">
+            <h5><span>30% Discount </span>First Annual Purchase</h5>
           </div>
-          <!-- /.banner__content -->
-        </section>
+          <!-- /.header_sub__title -->
+          <div class="banner_title">
+            <h1>
+              More Fast,<br>
+              More Productive
+            </h1>
+          </div>
+          <!-- /.banner_title -->
+          <div class="banner__des">
+            <p>
+              It is a long established fact that a reader will be distracted by
+              <br>
+              the readable content of a page when looking at its layout.
+            </p>
+          </div>
+          <!-- /.banner_des -->
+          <div class="isp__banner-button d-flex">
+            <a class="banner-button1" href="#">See Packages</a>
+            <a class="banner-button2" href="#">Coverage Area</a>
+          </div>
+        </div>
       </div>
-      <div class="swiper-pagination"></div>
-    </div>
+      <!-- /.banner__content -->
+    </section>
     <!-- /.banner -->
 
 
@@ -154,7 +130,7 @@
     <section class="featchers featcher_padd">
       <div class="container">
         <div class="featchers_icon position-relative">
-          <img src="assets/image/featcher.svg" alt="image" />
+          <img src="assets/image/featcher.svg" alt="image">
           <div class="featcher_icon_text position-absolute">
             <p>Feature</p>
           </div>
@@ -183,7 +159,7 @@
           <div class="col-sm-12 col-md-6 col-lg-3 mt-4">
             <div class="featchers_box">
               <div class="featchers_box_shape position-relative">
-                <img src="assets/image/feature_shape1.svg" alt="icon" />
+                <img src="assets/image/feature_shape1.svg" alt="icon">
                 <div class="featchers_box_shape_icon position-absolute">
                   <img src="assets/image/feature_shape_icon1.svg" alt="">
                 </div>
@@ -204,7 +180,7 @@
           <div class="col-sm-12 col-md-6 col-lg-3 mt-4">
             <div class="featchers_box">
               <div class="featchers_box_shape position-relative">
-                <img src="assets/image/feature_shape2.svg" alt="shape" />
+                <img src="assets/image/feature_shape2.svg" alt="shape">
                 <div class="featchers_box_shape_icon position-absolute">
                   <img src="assets/image/feature_shape_icon2.svg" alt="shape_icon">
                 </div>
@@ -226,7 +202,7 @@
           <div class="col-sm-12 col-md-6 col-lg-3 mt-4">
             <div class="featchers_box">
               <div class="featchers_box_shape position-relative">
-                <img src="assets/image/feature_shape3.svg" alt="shape" />
+                <img src="assets/image/feature_shape3.svg" alt="shape">
                 <div class="featchers_box_shape_icon position-absolute">
                   <img src="assets/image/feature_shape_icon3.svg" alt="shape_icon">
                 </div>
@@ -248,7 +224,7 @@
           <div class="col-sm-12 col-md-6 col-lg-3 mt-4">
             <div class="featchers_box">
               <div class="featchers_box_shape position-relative">
-                <img src="assets/image/feature_shape4.svg" alt="icon" />
+                <img src="assets/image/feature_shape4.svg" alt="icon">
                 <div class="featchers_box_shape_icon position-absolute">
                   <img src="assets/image/feature_shape_icon4.svg" alt="">
                 </div>
@@ -278,22 +254,20 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6 position-relative">
-            <img src="assets/image/about_image.svg" alt="about image" />
+            <img src="assets/image/aboaut_image.png" alt="about image">
             <div
               class="about_image about_enima_circle about_enima_pulse about_enima_center about_enima_bg position-absolute">
-              <a href="https://www.google.com">
-                <img src="assets/image/about_image-icon.svg" alt="image" />
+              <a class="popup-video" href="https://www.youtube.com/watch?v=9No-FiEInLA">
+                <img src="assets/image/about_image-icon.svg" alt="image">
               </a>
             </div>
           </div>
           <div class="col-lg-6">
             <div class="isp_about_right">
               <div class="isp_about_shape position-relative">
-                <img src="assets/image/about_shape.svg" alt="about_image" />
+                <img src="assets/image/about_shape.svg" alt="about_image">
                 <div class="isp_about_shape_text position-absolute">
-                  <a class="text-decoration-none" href="#">
-                    <p>About Us</p>
-                  </a>
+                  <p>About Us</p>
                 </div>
               </div>
               <div class="isp_about_title">
@@ -347,11 +321,9 @@
     <section class="isp__service service_padd">
       <div class="service__header">
         <div class="service position-relative">
-          <img class="service__icon" src="assets/image/service_icon.svg" alt="service_shape">
-          <div class="service_text position-absolute">
-            <a href="#">
-              <p>About Us</p>
-            </a>
+          <img class="service__shape" src="assets/image/service_icon.svg" alt="service_shape">
+          <div class="service__shape_text position-absolute">
+            <p>Service</p>
           </div>
         </div>
         <h2>Services We Provide</h2>
@@ -584,8 +556,8 @@
           </div>
         </div>
       </div>
-      <a class="price__view" href="#">View All Package <i class="fa fa-arrow-right"></i> </a>
-      </div>
+      <div class="price__view">
+        <a href="#">View All Package <i class="fa fa-arrow-right"></i> </a>
       </div>
       <!-- /.container -->
     </section>
@@ -599,12 +571,12 @@
           <div class="col-md-6">
             <div class="choose__left d-flex">
               <div class="choose__image1">
-                <img src="assets/image/choose_image1.svg" alt="">
+                <img src="assets/image/choose_image_01.png" alt="choose image">
               </div>
               <div class="choose__image2">
-                <img src="assets/image/choose_image2.svg" alt="">
+                <img src="assets/image/choose_image_02.png" alt="choose image">
                 <div class="choose__image3">
-                  <img src="assets/image/choose_image3.svg" alt="">
+                  <img src="assets/image/choose_image_03.png" alt="choose image">
                 </div>
                 <div class="choose__content">
                   <p>Right Internet Packages<br>
@@ -626,12 +598,13 @@
             </div>
             <div class="choose__boxone">
               <div class=" d-flex">
-                <div role="progressbar" aria-valuenow="120" aria-valuemin="" aria-valuemax="100" style="--value:75"></div>
+                <div role="progressbar" aria-valuenow="120" aria-valuemax="100" style="--value:75">
+                </div>
                 <div class="choose__boxone_content">
                   <h2>Superfast:1 (1-150 MBPS)</h2>
                   <div class="d-flex">
                     <div class="choose__sub-icon1">
-                      <img src="assets/image/choose_checker.svg" alt="">
+                      <img src="assets/image/choose_checker.svg" alt="choose icon">
                     </div>
                     <div class="choose__boxone_sub_content mt-2">
                       <h2>Average Speed : 50 MBPS</h2>
@@ -639,7 +612,7 @@
                   </div>
                   <div class=" choose_card1 d-flex">
                     <div class="choose__sub-icon1">
-                      <img src="assets/image/choose_checker.svg" alt="">
+                      <img src="assets/image/choose_checker.svg" alt="choose icon">
                     </div>
                     <div class="choose__boxone_sub_content mt-2">
                       <h2>Average Speed : 50 MBPS</h2>
@@ -650,12 +623,13 @@
             </div>
             <div class="choose__boxone">
               <div class="d-flex">
-                <div role="progressbarOne" aria-valuenow="120" aria-valuemin="" aria-valuemax="100" style="--value:75"></div>
+                <div role="progressbarOne" aria-valuenow="120" aria-valuemax="100" style="--value:75">
+                </div>
                 <div class="choose__boxone_content">
                   <h2>Superfast:1 (1-150 MBPS)</h2>
                   <div class="d-flex">
                     <div class="choose__sub-icon1">
-                      <img src="assets/image/choose_checker.svg" alt="">
+                      <img src="assets/image/choose_checker.svg" alt="choose icon">
                     </div>
                     <div class="choose__boxone_sub_content mt-2">
                       <h2>Average Speed : 50 MBPS</h2>
@@ -663,7 +637,7 @@
                   </div>
                   <div class=" choose_card1 d-flex">
                     <div class="choose__sub-icon1">
-                      <img src="assets/image/choose_checker.svg" alt="">
+                      <img src="assets/image/choose_checker.svg" alt="choose icon">
                     </div>
                     <div class="choose__boxone_sub_content mt-2">
                       <h2>Average Speed : 50 MBPS</h2>
@@ -679,7 +653,7 @@
     <!-- choose section end -->
 
 
-    <!-- call-action section start -->
+    <!-- call action section start -->
     <section class="isp_call_section call-padd">
       <div class="container">
         <div class="isp_call">
@@ -780,41 +754,6 @@
               </div>
             </div>
           </div>
-
-
-          <!-- <div class="col-md-7">
-            <div class="faq__card-main">
-              <div class="faq__card__title d-flex justify-content-between">
-                <h2>Q.We are the best ISP Provider</h2>
-                <p>-</p>
-              </div>
-              <div class="faq__card__des">
-                <p>Procede gronden in bereikt de te verdere. Zeven steel is ugong op. Ingericht
-                  brandstof er te degelijke herhaling. Jungles af planten ontdekt op. nteger to
-                  maximus accumsan nunc, sit amet tempor lectus facilisis.</p>
-              </div>
-            </div>
-            <div class="faq-card__sub1">
-              <div class="faq__card__content d-flex justify-content-between">
-                <h2>Q.Effective Support Team</h2>
-                <p>+</p>
-              </div>
-            </div>
-            <div class="faq-card__sub1">
-              <div class="faq__card__content d-flex justify-content-between">
-                <h2>Q.Effective Support Team</h2>
-                <p>+</p>
-              </div>
-            </div>
-            <div class="faq-card__sub1">
-              <div class="faq__card__content d-flex justify-content-between">
-                <h2>Q.Effective Support Team</h2>
-                <p>+</p>
-              </div>
-            </div>
-          </div> -->
-
-
         </div>
       </div>
     </section>
@@ -841,15 +780,15 @@
         <div class="row">
           <div class="col-sm-12 col-md-6 col-lg-4 mt-4">
             <div class="blog_card">
-              <img src="assets/image/blog_image1.svg" alt="">
+              <img src="assets/image/blog_image1.svg" alt="blog image">
               <div class="blog__main">
                 <div class="blog-time d-flex justify-content-between">
                   <div class="blog_date d-flex">
-                    <i class="fa fa-calendar mt-1"></i>
+                    <i class="fa-regular fa-calendar mt-1"></i>
                     <p>20 Jan 2022</p>
                   </div>
                   <div class="blog_date d-flex">
-                    <i class="fa fa-message mt-1"></i>
+                    <i class="fa-regular fa-comment mt-1"></i>
                     <p>Comment (5)</p>
                   </div>
                 </div>
@@ -866,11 +805,11 @@
               <div class="blog__main">
                 <div class="blog-time d-flex justify-content-between">
                   <div class="blog_date d-flex">
-                    <i class="fa fa-calendar mt-1"></i>
+                    <i class="fa-regular fa-calendar mt-1"></i>
                     <p>20 Jan 2022</p>
                   </div>
                   <div class="blog_date d-flex">
-                    <i class="fa fa-message mt-1"></i>
+                    <i class="fa-regular fa-comment mt-1"></i>
                     <p>Comment (5)</p>
                   </div>
                 </div>
@@ -883,15 +822,15 @@
           </div>
           <div class="col-sm-12 col-md-6 col-lg-4 mt-4">
             <div class="blog_card">
-              <img src="assets/image/blog_image3.svg" alt="">
+              <img src="assets/image/blog_image3.svg" alt="blog image">
               <div class="blog__main">
                 <div class="blog-time d-flex justify-content-between">
                   <div class="blog_date d-flex">
-                    <i class="fa fa-calendar mt-1"></i>
+                    <i class="fa-regular fa-calendar mt-1"></i>
                     <p>20 Jan 2022</p>
                   </div>
                   <div class="blog_date d-flex">
-                    <i class="fa fa-message mt-1"></i>
+                    <i class="fa-regular fa-comment mt-1"></i>
                     <p>Comment (5)</p>
                   </div>
                 </div>
@@ -995,7 +934,7 @@
             <div class="col-sm-12 col-md-6 col-lg-3">
               <div class="footer_widget">
                 <div class="footer_widget_logo">
-                  <img src="assets/image/isp_logo.svg" alt="isp_logo">
+                  <a href="#"><img src="assets/image/isp_logo.svg" alt="isp_logo"></a>
                 </div>
                 <div class="footer_widget_des mt-4 mb-4">
                   <p>Sed ut perspiciatis unde omnis natus vitae dicta sunt explicabo.</p>
@@ -1067,16 +1006,31 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
     integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous">
   </script>
+  <!-- jquery cdn js -->
+  <script src="assets/js/jquery.js"></script>
 
+  <!-- magnific popup js cdn -->
+  <script src="assets/js/jquery.magnific-popup.min.js"></script>
+  <script>
+    $('.popup-video').each(function () {
+      $('.popup-video').magnificPopup({
+        type: 'iframe'
+      });
+    });
+  </script>
 
   <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
   <script>
     var swiper = new Swiper(".mySwiper", {
-      direction: "vertical",
+      spaceBetween: 30,
       pagination: {
         el: ".swiper-pagination",
         clickable: true,
+
+      },
+      autoplay: {
+        delay: 2000
       },
     });
   </script>
